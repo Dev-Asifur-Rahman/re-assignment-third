@@ -14,9 +14,9 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="border lg:mx-10">
+  <body class="border  bg-[#fff5f5]">
     <header>
-      <div class="navbar bg-base-100">
+      <div class="navbar lg:w-[90%] lg:mx-auto bg-white">
         <div class="navbar-start">
           <div class="flex items-center gap-2">
             <img src="assets/arrow-green.png" alt="" />
@@ -38,13 +38,13 @@
               src="assets/Frame 3.png"
               alt=""
             />
-            <div class="flex items-center gap-1 bg-[#ABEF5F] rounded-[32px] px-3 py-1">
+            <div class="flex items-center gap-1 bg-[#ABEF5F] rounded-[32px] px-4 py-2">
               <p class="text-base font-bold">Book Consult</p>
               <img src="assets/arrow-black.png" alt="" />
             </div>
           </div>
           <div class="dropdown lg:hidden">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -64,7 +64,33 @@
         </div>
       </div>
     </header>
-    <main>hello</main>
-    <footer class=""></footer>
+    <main>
+      <div class="image-div bg-white w-full lg:w-[90%] lg:mx-auto">
+        <img src="assets/banner.png" class="lg:w-3/6 w-full h-[380px] mx-auto" alt="">
+      </div>
+      
+      <div class="common-div bg-white lg:w-[90%] lg:mx-auto">
+        <p class="common-heading lg:px-40 leading-2">A barn house of this design has a striking appearance</p>
+        <p class="common-text lg:px-28">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+      </div>
+    </main>
+    <footer class="bg-black flex flex-col gap-5 py-10 items-center px-4">
+      <div class="flex items-center gap-2">
+        <img src="assets/arrow-green.png" alt="" />
+        <p class="font-bold text-3xl text-white">Rinterio</p>
+      </div>
+      <p class="text-base font-medium text-[#737373] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <ul class="  lg:w-[85%] text-base text-[#E9E9E9] flex lg:justify-between flex-col gap-3 items-center lg:flex-row">
+        <li>Home</li>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Blogs</li>
+        <li>Contact Us</li>
+      </ul>
+      <div class="flex items-center justify-center gap-2 bg-[#ABEF5F] rounded-[32px] lg:w-fit w-[80%] py-[6px] px-3">
+        <p class="font-bold text-base text-black">Book Consult</p>
+        <img src="assets/arrow-black.png" alt="" />
+      </div>
+    </footer>
   </body>
 </html>

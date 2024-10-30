@@ -56,6 +56,10 @@
   background-color: white;
   border-radius: 14px;
 }
+/* .tag-3::placeholder{
+  position: absolute;
+  top: 5%;
+} */
 @media screen and (max-width:576px) {
   .common-heading{
     font-size: 42px;
@@ -67,4 +71,7 @@
   .div-padding{
     padding: 16px;
   }
+  /* .tag-3::placeholder{
+    top: 5%;
+  } */
 }

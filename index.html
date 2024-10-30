@@ -86,12 +86,14 @@
           large windows that flood the space with natural light.
         </p>
       </div>
+      <!-- view details indicator  -->
       <div
         class="flex items-center mx-auto my-2 justify-center gap-2 bg-[#ABEF5F80] rounded-[32px] lg:w-fit w-[80%] py-[6px] px-5"
       >
         <p class="font-bold text-base text-black">View Details</p>
         <img src="assets/arrow-green.png" alt="" />
       </div>
+      <!-- arrow image  -->
       <img src="assets/Vector.png" class="ml-10 hidden lg:inline" alt="" />
       <!-- text and image section  -->
       <section
@@ -225,12 +227,15 @@
           large windows that flood the space with natural light.
         </p>
       </div>
+      <!-- porfolio grid  -->
       <section
-        class="grid lg:grid-cols-5 grid-cols-1 lg:grid-rows-2 lg:h-[360px] h-[1600px] lg:w-[90%] mx-auto grid-rows-8 gap-y-3 lg:gap-x-2"
+        class="grid lg:grid-cols-5 grid-cols-1 lg:grid-rows-2 lg:h-[500px] h-[2400px] lg:w-[90%] mx-auto grid-rows-8 gap-y-3 lg:gap-x-2 lg:my-8 my-6"
       >
         <!-- 1 -->
-        <div class="div-padding lg:col-span-3 flex flex-col lg:flex-row gap-2 row-span-2 lg:row-span-1 bg-white ">
-          <div class="lg:w-[35%] w-full lg:h-full h-3/5 ">
+        <div
+          class="div-padding lg:col-span-3 flex flex-col lg:flex-row gap-2 row-span-2 lg:row-span-1"
+        >
+          <div class="lg:w-[35%] w-full lg:h-full h-3/5">
             <img src="assets/img1.png" class="h-full w-full" alt="" />
           </div>
           <div class="lg:w-[65%] lg:h-full h-2/5 flex flex-col justify-between">
@@ -249,19 +254,95 @@
           </div>
         </div>
         <!-- 2 -->
-        <div class="div-padding"></div>
-        <!-- 5 and hidden in lg -->
-        <div class="div-padding"></div>
+        <div class="div-padding lg:col-span-2">
+          <img src="assets/img2.png" class="w-full h-full" alt="" />
+        </div>
         <!-- 3 hidden in small -->
-        <div class="div-padding"></div>
+        <div class="div-padding hidden lg:inline-grid">
+          <img src="assets/img3.png" class="h-full w-full" alt="" />
+        </div>
+        <!-- 5 and hidden in lg -->
+        <div class="div-padding lg:hidden">
+          <img src="assets/img5.png" class="h-full w-full" alt="" />
+        </div>
         <!-- 4 -->
-        <div class="div-padding"></div>
+        <div
+          class="div-padding lg:col-span-3 flex flex-col lg:flex-row gap-2 row-span-2 lg:row-span-1"
+        >
+          <div class="lg:w-[45%] w-full lg:h-full h-3/5">
+            <img src="assets/img4.png" class="h-full w-full" alt="" />
+          </div>
+          <div class="lg:w-[55%] lg:h-full h-2/5 flex flex-col justify-between">
+            <p class="cr-heading">Commercial</p>
+            <p class="cr-text">
+              The barn house captivates with its blend of rustic charm and
+              modern. The barn house captivates with its blend of rustic charm
+              and modern .
+            </p>
+            <div class="flex items-center gap-2">
+              <p class="font-bold">View Details</p>
+              <div class="">
+                <img src="assets/arrow-green.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- 3 and hidden in lg -->
-        <div class="lg:hidden div-padding"></div>
+        <div class="lg:hidden div-padding">
+          <img src="assets/img3.png" class="h-full w-full" alt="" />
+        </div>
         <!-- 5 -->
-        <div class="div-padding"></div>
+        <div class="div-padding">
+          <img src="assets/img5.png" class="h-full w-full" alt="" />
+        </div>
+      </section>
+      <!-- next project section  -->
+      <section
+        class="bg-[url('assets/bg.jpg')] h-fit bg-no-repeat bg-cover py-12"
+      >
+        <div class="border-2 p-3 lg:px-0 border-black lg:w-[80%] mx-auto flex flex-col gap-4">
+          <!-- lets connect indicator  -->
+          <div
+            class="flex items-center mx-auto justify-center gap-2 bg-[#ABEF5F33] rounded-[32px] w-fit py-[6px] px-3"
+          >
+            <img src="assets/arrow.png" alt="" />
+            <p class="font-semibold text-base text-black">Lets Connect</p>
+          </div>
+          <!-- common div  -->
+          <div class="common-div lg:w-[90%] lg:mx-auto pb-6">
+            <p class="common-heading lg:px-40 leading-2">
+              Lets Discuss Next Project
+            </p>
+            <p class="common-text lg:px-28">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+          </div>
+          <!-- input tag 1 -->
+          <div class="flex lg:justify-evenly flex-col lg:flex-row gap-4 lg:gap-0">
+            <input type="text" placeholder="First Name*" class="rounded-3xl lg:w-[48%] h-12 px-4 py-5 text-base text-[#A0A0A0] "/>
+            <input type="text" placeholder="Last Name*" class="rounded-3xl lg:w-[48%] h-12 px-4 py-5 text-base text-[#A0A0A0]" />
+          </div>
+          <!-- input tag 2  -->
+          <div class="flex lg:justify-evenly flex-col lg:flex-row gap-4 lg:gap-0">
+            <input type="text" placeholder="Phone Number*" class="rounded-3xl lg:w-[48%] h-12 px-4 py-5 text-base text-[#A0A0A0]"/>
+            <input type="text" placeholder="Email Number*" class="rounded-3xl lg:w-[48%] h-12 px-4 py-5 text-base text-[#A0A0A0]" />
+          </div>
+          <!-- input tag 3  -->
+           <input type="text" placeholder="Write your message here" class="rounded-3xl lg:w-[97%] h-52 lg:h-[800px] px-4 text-start  text-base text-[#A0A0A0] mx-auto w-full">
+          <!-- book consult button  -->
+          <div
+            class="flex justify-center items-center gap-1 lg:w-[97%] w-full mx-auto bg-[#ABEF5F] rounded-[32px] px-4 py-2"
+          >
+            <p class="text-base font-bold">Send Mail</p>
+            <img src="assets/arrow-black.png" alt="" />
+          </div>
+        </div>
       </section>
     </main>
+    <!-- footer section  -->
     <footer class="bg-black flex flex-col gap-5 py-10 items-center px-4">
       <div class="flex items-center gap-2">
         <img src="assets/arrow-green.png" alt="" />

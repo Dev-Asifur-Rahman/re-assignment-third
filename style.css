@@ -25,9 +25,21 @@
   font-size: 18px;
   font-weight: 500;
 }
-
+/* how we works section  */
+.work-grid{
+  width: 100%;
+  height: 200px;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
 @media screen and (max-width:576px) {
   .common-heading{
     font-size: 42px;
+  }
+  .work-grid{
+    padding: 28px;
   }
 }

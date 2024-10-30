@@ -35,11 +35,35 @@
   justify-content: space-around;
   flex-direction: column;
 }
+/* commercial and residential section  */
+.cr-div{
+  background-color: white;
+  padding: 28px;
+  border-radius: 16px;
+}
+.cr-text{
+  font-size: 14px;
+  font-weight: 400;
+}
+.cr-heading{
+  font-size: 18px;
+  font-weight: 800;
+}
+/* our latest porfolio section  */
+.div-padding{
+  border: 2px solid black;
+  padding: 12px;
+}
 @media screen and (max-width:576px) {
   .common-heading{
     font-size: 42px;
+    text-align: center;
   }
   .work-grid{
     padding: 28px;
+  }
+  .div-padding{
+    border: 2px solid black;
+    padding: 16px;
   }
 }
